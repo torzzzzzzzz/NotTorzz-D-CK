@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nottorzz_dck",
+  "version": "${version}",
+  "name": "NotTorzz D*CK",
+  "description": "A 100% cosmetic DonutSMP prank mod. When you join DonutSMP it plays a dramatic 'pay NotTorzz' gag with a premium animated interface, fake numbers, flashing lights and a laughing mascot — then reveals your balance was never touched. It sends NO commands, moves NO currency and collects NO data. Pure visual comedy.",
+  "authors": [
+    "axolbtc"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/nottorzz_dck/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.nottorzz.dck.client.NotTorzzDckClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": ">=1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "client" ]
+    }
+  }
+}
